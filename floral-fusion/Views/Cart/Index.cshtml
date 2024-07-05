@@ -1,0 +1,47 @@
+<div class="cart-container">
+    <div class="header-view">
+        <div class='price' style="display: flex;align-items: center;">
+            <span style="margin: 0 10px;display:block;">Cart Price</span>
+            <span class="cart-price-total">@ViewData["cartPrice"]$</span>
+        </div>
+        <div style="display: flex;align-items: center;">
+            <a href="/checkout" class="m-3 flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700">Checkout</a>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <th>#</th>
+            <th>ID</th>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Action</th>
+        </thead>
+            <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="cart-item-@item.id">
+                <td>@item.count</td>
+                <td>@item.id</td>
+                <td><img src="@item.image" alt="@item.title"/></td>
+                <td>@item.title</td>
+                <td>$@item.price</td>
+                <td>
+                    <button onclick="handleCartRemove(@item.id, @item.price)">Remove</button>
+                </td>
+            </tr>
+        }
+            </tbody>
+        <tfoot>
+            <th>#</th>
+            <th>ID</th>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tfoot>
+    </table>
+    <div>
+
+    </div>
+</div>

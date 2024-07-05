@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UsersList>
+  <User>
+    <firstname>anny</firstname>
+    <lastname>sam</lastname>
+    <email>anysam@gmail.com</email>
+    <password>123123123</password>
+    <createdAt>06-24-2024</createdAt>
+  </User>
+  <User>
+    <firstname>Larry</firstname>
+    <lastname>jack</lastname>
+    <email>jacklarry@gmail.com</email>
+    <password>123123123</password>
+    <createdAt>06-24-2024</createdAt>
+  </User>
+  <User>
+    <firstname>sam</firstname>
+    <lastname>fisherman</lastname>
+    <email>samfisher12@gmail.com</email>
+    <password>123123123</password>
+    <createdAt>06-24-2024</createdAt>
+  </User>
+  <User>
+    <firstname>Ashley</firstname>
+    <lastname>harry</lastname>
+    <email>ashleyharry1@gmail.com</email>
+    <password>123123123</password>
+    <createdAt>6-24-2024</createdAt>
+  </User>
+  <User>
+    <firstname>John</firstname>
+    <lastname>doe</lastname>
+    <email>johnodoe@gmail.com</email>
+    <password>123123123</password>
+    <createdAt>06-24-2024</createdAt>
+  </User>
+  <User>
+    <firstname>Lea</firstname>
+    <lastname>altman</lastname>
+    <email>leaaltman@gmail.com</email>
+    <password>123123123</password>
+    <createdAt>01-07-2024</createdAt>
+    <asAdmin>1</asAdmin>
+  </User>
+</UsersList>
